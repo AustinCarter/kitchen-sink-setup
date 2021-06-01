@@ -31,10 +31,12 @@ source $HOME/.poetry/env
 
 # install vs code extensions 
 code-server --install-extension esbenp.prettier-vscode
-code-server --install-extension dbaeumer.vscode-eslint
-code-server --install-extension golang.go
-code-server --install-extension ryanolsonx.solarized
-code-server --install-extension ms-vscode.sublime-keybindings
+# code-server --install-extension dbaeumer.vscode-eslint
+# code-server --install-extension golang.go
+# code-server --install-extension ryanolsonx.solarized
+# code-server --install-extension ms-vscode.sublime-keybindings
+code-server --install-extension wesbos.theme-cobalt2
+code-server --install-extension waderyan.gitblame
 
 # move settings.json to .vscode directory
 cp settings.json ../.vscode/settings.json 
